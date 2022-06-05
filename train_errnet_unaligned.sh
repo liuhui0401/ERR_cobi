@@ -1,0 +1,1 @@
+nohup python -u train_errnet_unaligned.py --name errnet_unaligned_nopretrained --nEpochs 30 --batchSize 1 --number $1 --hyper --checkpoints_dir ./mycheckpoints/unaligned_errnet --unaligned_loss vgg > ./log/unaligned_errnet_nopretrained_addconv_addconv.txt 2>&1 &

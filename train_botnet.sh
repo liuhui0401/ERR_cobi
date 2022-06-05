@@ -1,0 +1,1 @@
+nohup python -u train_botnet.py --name errnet_botnet --nEpochs 30 --batchSize 1 --number $1 --checkpoints_dir ./mycheckpoints/errnet_botnet > ./log/errnet_botnet.txt 2>&1 &

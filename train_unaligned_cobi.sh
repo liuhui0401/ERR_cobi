@@ -1,0 +1,1 @@
+nohup python -u train_errnet_unaligned.py --name errnet_unaligned_ft --hyper -r --icnn_path ./checkpoints/errnet/errnet_060_00463920.pt --checkpoints_dir ./mycheckpoints/unaligned_cobi_short --unaligned_loss cobi > ./log/train_unaligned_cobi.txt 2>&1 &

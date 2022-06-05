@@ -1,0 +1,3 @@
+#nohup python -u my_test_errnet.py --name cobi -r --icnn_path ./checkpoints/errnet/errnet_060_00463920.pt --hyper > ./log/test.txt 2>&1 &
+nohup python -u my_test_errnet.py --name cobi -r --icnn_path /data/xzn/ERR/ERR/mycheckpoints/unaligned_errnet/errnet_unaligned_nopretrained/errnet_errnet_unaligned_nopretrained_3.pt --hyper > ./log/test.txt 2>&1 &
+#nohup python -u train_errnet_unaligned.py --name errnet_unaligned --nEpochs 30 --batchSize 1 --number $1 --hyper  --checkpoints_dir ./mycheckpoints/unaligned_errnet --unaligned_loss vgg > ./log/unaligned_errnet_test.txt 2>&1 &

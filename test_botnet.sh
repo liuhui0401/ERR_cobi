@@ -1,0 +1,1 @@
+nohup python -u test_botnet.py --name errnet_botnet -r --icnn_path /data/xzn/ERR/ERR/mycheckpoints/errnet_botnet/errnet_botnet/errnet_errnet_botnet_1.pt --hyper > ./log/test_botnet.txt 2>&1 &

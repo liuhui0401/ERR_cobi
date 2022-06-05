@@ -1,0 +1,1 @@
+nohup python -u train_botnet_unaligned.py --nEpochs 30 --name unaligned_botnet --number $1 --hyper --checkpoints_dir ./mycheckpoints/unaligned_botnet --unaligned_loss cobi > ./log/unaligned_botnet.txt 2>&1 &
